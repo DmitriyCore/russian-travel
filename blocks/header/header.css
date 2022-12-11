@@ -1,0 +1,24 @@
+.header {
+  height: 52px;
+  margin: 0px 48px;
+  padding: 28px 0px 0px 0px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  transition: margin .4s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    margin: 0px 24px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header {
+    width: 288px;
+    height: 42px;
+    margin: 0px 16px;
+    padding: 16px 0px 0px 0px;
+  }
+}
