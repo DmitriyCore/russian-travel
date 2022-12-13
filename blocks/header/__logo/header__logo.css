@@ -4,6 +4,18 @@
   margin: 0px 0px 0px 0px;
 }
 
+@media screen and (max-width: 1279px) {
+  .header__logo {}
+}
+
+@media screen and (max-width: 1023px) {
+  .header__logo {}
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {}
+}
+
 @media screen and (max-width: 424px) {
   .header__logo {
     width: 142px;

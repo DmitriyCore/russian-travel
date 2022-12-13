@@ -1,0 +1,29 @@
+.lead {
+  max-width: 984px;
+  max-height: 1005px;
+  margin: 56px auto 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-wrap: nowrap;
+  background: #696c7296;
+  transition: margin .4s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    margin: 48px auto 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {}
+}
+
+@media screen and (max-width: 767px) {
+  .lead {}
+}
+
+@media screen and (max-width: 424px) {
+  .lead {}
+}
