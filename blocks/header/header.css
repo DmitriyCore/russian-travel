@@ -5,7 +5,17 @@
   display: flex;
   position: relative;
   justify-content: space-between;
+  background: #696c7296;
   transition: margin .4s ease-in-out;
+  transition: padding .4s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {}
+}
+
+@media screen and (max-width: 1023px) {
+  .header {}
 }
 
 @media screen and (max-width: 767px) {
@@ -16,7 +26,6 @@
 
 @media screen and (max-width: 424px) {
   .header {
-    width: 288px;
     height: 42px;
     margin: 0px 16px;
     padding: 16px 0px 0px 0px;
