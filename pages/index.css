@@ -42,14 +42,16 @@
 /* Блок "cover" */
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 /* Блок "footer" */
 
 @import url(../blocks/footer/footer.css);
 
 /* Шрифты */
-
-/* Использовал */
 
 @font-face {
   font-family: 'Inter';
@@ -58,47 +60,16 @@
   font-weight: normal;
 }
 
-/* ??? */
-
 @font-face {
-  font-family: 'Inter-Thin';
-  src: url(../fonts/Inter-Thin.woff2) format('woff2'),
-       url(../fonts/Inter-Thin.woff) format('woff');
-  font-weight: normal;
-}
-
-/* Использовал */
-
-@font-face {
-  font-family: 'Inter-Light';
+  font-family: 'Inter';
   src: url(../fonts/Inter-Light.woff2) format('woff2'),
        url(../fonts/Inter-Light.woff) format('woff');
-  font-weight: normal;
+  font-weight: lighter;
 }
 
-/* Использовал */
-
 @font-face {
-  font-family: 'Inter-Bold';
+  font-family: 'Inter';
   src: url(../fonts/Inter-Bold.woff2) format('woff2'),
        url(../fonts/Inter-Bold.woff) format('woff');
-  font-weight: normal;
-}
-
-/* ??? */
-
-@font-face {
-  font-family: 'Inter-SemiBold';
-  src: url(../fonts/Inter-SemiBold.woff2) format('woff2'),
-       url(../fonts/Inter-SemiBold.woff) format('woff');
-  font-weight: normal;
-}
-
-/* Использовал */
-
-@font-face {
-  font-family: 'Inter-ExtraBold';
-  src: url(../fonts/Inter-ExtraBold.woff2) format('woff2'),
-       url(../fonts/Inter-ExtraBold.woff) format('woff');
-  font-weight: normal;
+  font-weight: bold;
 }
