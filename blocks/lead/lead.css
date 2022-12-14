@@ -2,28 +2,38 @@
   max-width: 984px;
   max-height: 1005px;
   margin: 56px auto 0px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
   position: relative;
   flex-wrap: nowrap;
-  background: #696c7296;
   transition: margin .4s ease-in-out;
+  background-color: brown;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
+  .lead {
+    max-width: 928px;
+    max-height: 962px;
+    margin: 56px auto 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .lead {
     margin: 48px auto 0px;
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .lead {}
+@media screen and (max-width: 768px) {
+  .lead {
+    margin: 48px 0px 0px;
+  }
 }
 
-@media screen and (max-width: 767px) {
-  .lead {}
-}
-
-@media screen and (max-width: 424px) {
-  .lead {}
+@media screen and (max-width: 425px) {
+  .lead {
+    min-width: 320px;
+    margin: 48px 0px 0px;
+  }
 }
