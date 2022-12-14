@@ -1,10 +1,36 @@
 .cover {
-  width: 100px;
-  height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  margin: 10px 10px;
-  background-color: rgb(228, 18, 210);
-  border: 1px solid rgb(228, 18, 210);
-  border-radius: 10%;
+  max-width: 1184px;
+  max-height: 740px;
+  margin: 92px auto 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
+  justify-items: center;
+  transition: margin .4s ease-in-out;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    margin: 92px 48px 0px;
+  }
+}
+    
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 92px 0px 0px;
+  }
+}
+    
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 90px 0px 0px;
+  }
+}
+    
+@media screen and (max-width: 425px) {
+  .cover {
+    margin: 66px 0px 0px;
+  }
 }
