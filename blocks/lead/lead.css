@@ -8,7 +8,6 @@
   position: relative;
   flex-wrap: nowrap;
   transition: margin .4s ease-in-out;
-  background-color: brown;
 }
 
 @media screen and (max-width: 1280px) {

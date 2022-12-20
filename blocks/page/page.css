@@ -1,7 +1,11 @@
 .page {
+  max-width: 424px;
+  min-width: 320px;
   height: 100%;
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -11,34 +15,32 @@
   -moz-text-size-adjust: 100%;
   color: #FFFFFF;
   background-color: #2A2C2F;
-  display: flex;
-  flex-direction: column;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 425px) {
   .page {
-    min-width: 1025px;
-    max-width: 1280px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-    min-width: 769px;
-    max-width: 1024px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    min-width: 426px;
     max-width: 768px;
+    min-width: 425px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) {
   .page {
-    min-width: 320px;
-    max-width: 425px;
+    max-width: 1024px;
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    max-width: 1280px;
+    min-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    max-width: 100%;
+    min-width: 1280px;
   }
 }
