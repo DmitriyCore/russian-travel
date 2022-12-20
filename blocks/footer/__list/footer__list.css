@@ -1,0 +1,18 @@
+.footer__list {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 32px;
+  list-style: none;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__list {
+    grid-template-columns: 50px 57px 94px 86px 106px;
+    grid-template-rows: 1fr;
+    gap: 18px;
+  }
+}

@@ -1,10 +1,41 @@
 .footer {
-  width: 100px;
-  height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  margin: 2000px 10px;
-  background-color: rgb(18, 228, 217);
-  border: 1px solid rgb(18, 228, 217);
-  border-radius: 10%;
+  max-width: 720px;
+  min-width: 186px;
+  height: 310px;
+  margin: 64px auto 24px 16px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
+  align-items: center;
+  list-style: none;
+  transition: margin .4s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    max-width: 100%;
+    min-width: 720px;
+    height: 18px;
+    margin: 88px 24px 24px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    transition: margin .4s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: 92px 48px 24px;
+    transition: margin .4s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    width: 1184px;
+    margin: 92px auto 24px;
+    transition: margin .4s ease-in-out;
+  }
 }

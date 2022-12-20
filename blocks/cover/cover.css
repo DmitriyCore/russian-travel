@@ -4,11 +4,14 @@
   margin: 92px auto 0px;
   padding: 0px;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
   position: relative;
   justify-items: center;
   transition: margin .4s ease-in-out;
+}
+
+.cover a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1280px) {
