@@ -17,7 +17,6 @@
     height: 52px;
     padding: 28px 0px 0px;
     margin: 0px 24px;
-    transition: margin .6s ease-in-out;
   }
 }
 
@@ -25,7 +24,6 @@
   .header {
     max-width: 100%;
     min-width: 720px;
-    transition: margin .6s ease-in-out;
   }
 }
 
@@ -34,7 +32,6 @@
     max-width: 100%;
     min-width: 928px;
     margin: 0px 48px;
-    transition: margin .6s ease-in-out;
   }
 }
 
@@ -43,6 +40,5 @@
     max-width: 100%;
     min-width: 1184px;
     margin: 0px auto;
-    transition: margin .6s ease-in-out;
   }
 }
