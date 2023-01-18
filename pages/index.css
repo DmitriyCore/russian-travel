@@ -67,6 +67,8 @@ body {
   font-weight: normal;
 }
 
+/* Если font-weight везде одного размера lighter удалить */
+
 @font-face {
   font-family: 'Inter';
   src: url(../fonts/Inter-Light.woff2) format('woff2'),
