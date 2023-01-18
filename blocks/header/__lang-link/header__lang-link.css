@@ -1,7 +1,7 @@
 .header__lang-link {
-  width: 22px;
-  height: 20px;
+  max-height: 20px;
   margin: 14px 0px 0px 18px;
+  padding: 0px;
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
@@ -13,24 +13,23 @@
 
 .header__lang-link:first-child {
   margin: 14px 0px 0px;
-  border-bottom: 1.3px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 .header__lang-link:hover {
   opacity: 0.3;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
   .header__lang-link {
-    width: 29px;
-    height: 28px;
+    max-height: 28px;
     margin: 18px 0px 0px 18px;
     font-size: 24px;
     line-height: 28px;
   }
 
   .header__lang-link:first-child {
-    width: 30px;
     margin: 18px 0px 0px;
+    border-bottom: 2px solid #FFFFFF;
   }
 }

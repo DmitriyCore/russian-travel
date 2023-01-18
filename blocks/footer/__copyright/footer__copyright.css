@@ -1,6 +1,6 @@
 .footer__copyright {
   min-width: 186px;
-  height: 14px;
+  max-height: 14px;
   margin: 0px;
   padding: 0px;
   font-style: normal;
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 768px) {
   .footer__copyright {
-    height: 16px;
+    max-height: 16px;
     line-height: 16px;
     justify-self: end;
     align-self: center;
