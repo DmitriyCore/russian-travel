@@ -1,7 +1,8 @@
 .lead {
-  max-width: 984px;
+  width: 100%;
+  max-width: 928px;
   max-height: 1005px;
-  margin: 56px auto 0px;
+  margin: 48px 0px 0px;
   padding: 0px;
   display: flex;
   flex-direction: column;
@@ -10,29 +11,15 @@
   transition: margin .4s ease-in-out;
 }
 
-@media screen and (max-width: 1280px) {
-  .lead {
-    max-width: 928px;
-    max-height: 962px;
-    margin: 56px auto 0px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .lead {
     margin: 48px auto 0px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
   .lead {
-    margin: 48px 0px 0px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .lead {
-    min-width: 320px;
-    margin: 48px 0px 0px;
+    max-width: 984px;
+    margin: 56px auto 0px;
   }
 }

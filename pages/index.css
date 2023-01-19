@@ -7,7 +7,7 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
 /* Блок "content" */
@@ -34,6 +34,7 @@
 /* Блок "photo-grid" */
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /* Блок "places" */
 
@@ -64,19 +65,21 @@ body {
   font-family: 'Inter';
   src: url(../fonts/Inter-Regular.woff2) format('woff2'),
        url(../fonts/Inter-Regular.woff) format('woff');
-  font-weight: normal;
+  font-weight: 400;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url(../fonts/Inter-Light.woff2) format('woff2'),
-       url(../fonts/Inter-Light.woff) format('woff');
-  font-weight: lighter;
-}
+/* Если font-weight везде одного размера lighter удалить */
 
 @font-face {
   font-family: 'Inter';
   src: url(../fonts/Inter-Bold.woff2) format('woff2'),
        url(../fonts/Inter-Bold.woff) format('woff');
-  font-weight: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-Black.woff2) format('woff2'),
+       url(../fonts/Inter-Black.woff) format('woff');
+  font-weight: 900;
 }

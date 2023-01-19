@@ -1,13 +1,13 @@
 .header__logo {
+  width: 142px;
   height: 42px;
   margin: 0px;
   padding: 0px;
-  transition: height .6s ease-in-out;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
   .header__logo {
+    width: 176px;
     height: 52px;
-    transition: height .6s ease-in-out;
   }
 }
