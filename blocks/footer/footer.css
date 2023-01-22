@@ -1,9 +1,8 @@
 .footer {
   min-width: 186px;
-  max-width: 100%;
   max-height: 310px;
-  margin: 64px auto 24px 16px;
-  padding: 0px;
+  margin: 64px auto 0px 16px;
+  padding: 0px 0px 24px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -17,7 +16,7 @@
   .footer {
     min-width: 720px;
     max-height: 18px;
-    margin: 88px 24px 24px;
+    margin: 88px 24px 0px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
@@ -25,13 +24,13 @@
 
 @media screen and (min-width: 1024px) {
   .footer {
-    margin: 92px 48px 24px;
+    margin: 92px 48px 0px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-    min-width: 1184px;
-    margin: 92px auto 24px;
+    max-width: 1184px;
+    margin: 92px auto 0px;
   }
 }

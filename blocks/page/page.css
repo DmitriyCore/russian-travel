@@ -4,8 +4,10 @@
   min-height: 100%;
   margin: 0px auto;
   padding: 0px;
-  display: grid;
-  grid-template-columns: 1fr;
+  /* display: grid;
+  grid-template-columns: fit-content;
+  grid-template-rows: repeat(2, fit-content) 1fr; */
+  position: relative;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
