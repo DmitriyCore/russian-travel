@@ -1,10 +1,11 @@
 .header {
   min-width: 288px;
-  max-height: 42px;
+  min-height: 42px;
   margin: 0px 16px;
   padding: 16px 0px 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  position: relative;
   justify-content: space-between;
   transition: margin .6s ease-in-out;
   transition: padding .6s ease-in-out;

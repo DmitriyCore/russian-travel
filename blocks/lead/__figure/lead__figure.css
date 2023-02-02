@@ -1,0 +1,27 @@
+.lead__figure {
+  width: 100%;
+  margin: 40px 0px 0px;
+  padding: 0px;
+  transition: margin .4s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__figure {
+    min-width: 768px;
+    max-width: 928px;
+    margin: 56px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__figure {
+    margin: 56px auto 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__figure {
+    max-width: 984px;
+    margin: 64px 0px 0px;
+  }
+}

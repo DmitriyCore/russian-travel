@@ -1,0 +1,14 @@
+.header__lang-link_active {
+  border-bottom: 1px solid #FFFFFF;
+  transition: opacity .4s ease-in-out;  
+}
+
+.header__lang-link_active:hover {
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link_active {
+    border-bottom: 2px solid #FFFFFF;
+  }
+}

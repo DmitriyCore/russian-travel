@@ -8,6 +8,8 @@
   grid-auto-flow: dense;
   gap: 12px;
   align-items: center;
+  transition: margin .6s ease-in-out;
+  transition: gap .6s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,9 +1,8 @@
 .page {
-  width: 100%;
+  min-width: 320px;
   height: 100%;
-  margin: 0px auto;
+  margin: 0px;
   padding: 0px;
-  position: relative;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
