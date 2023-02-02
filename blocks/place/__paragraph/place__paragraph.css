@@ -1,17 +1,18 @@
 .place__paragraph {
-  min-width: 288px;
+  min-width: 285px;
   margin: 25px 16px 0px;
-  padding: 0px;
+  padding: 0px 3px 0px 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.625;
   color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
     margin: 0px;
+    padding: 0px;
     grid-column: 2 / 3;
   }
 }
