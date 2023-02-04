@@ -1,6 +1,5 @@
 .place__link {
-  max-height: 20px;
-  margin: 12px auto 0px 0px;
+  margin: 11px auto 0px 0px;
   padding: 0px;
   font-style: normal;
   font-weight: 400;
@@ -8,7 +7,7 @@
   line-height: 22px;
   text-decoration: none;
   color: #FFFFFF;
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
   transition: opacity .4s ease-in-out;
 }
 
