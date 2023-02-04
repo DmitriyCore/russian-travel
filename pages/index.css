@@ -3,6 +3,10 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 
+/* Шрифты */
+
+@import url(../fonts/fonts.css);
+
 /* Блок "header" */
 
 @import url(../blocks/header/header.css);
@@ -63,26 +67,3 @@
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-/* Шрифты */
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../fonts/Inter-Regular.woff2) format('woff2'),
-       url(../fonts/Inter-Regular.woff) format('woff');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../fonts/Inter-Bold.woff2) format('woff2'),
-       url(../fonts/Inter-Bold.woff) format('woff');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../fonts/Inter-Black.woff2) format('woff2'),
-       url(../fonts/Inter-Black.woff) format('woff');
-  font-weight: 900;
-}
