@@ -1,5 +1,4 @@
 .place__title {
-  max-height: 35px;
   margin: 0px 16px;
   padding: 0px;
   font-style: normal;
@@ -12,7 +11,6 @@
   .place__title {
     margin: 0px 0px 23px 0px;
     padding: 0px 10px 0px 0px;
-    max-height: 92px;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     font-size: 42px;
@@ -24,7 +22,6 @@
   .place__title {
     margin: 0px 0px 21px 0px;
     padding: 0px;
-    max-height: 152px;
     font-size: 72px;
     line-height: 76px;
   }
